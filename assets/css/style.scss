@@ -160,6 +160,14 @@ header{
             color: #fff;
         }
     }
+    .link{
+        color: black;
+        color: $second-color;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
 }
 .colored-row{
     background-color: $light;
@@ -362,10 +370,10 @@ header{
             }
         }
         .dark-yellow-border{
-            border: 6px #f39454 solid;
+            border: 4px #f39454 solid;
         }
         .dark-red-border{
-            border: 6px #f07777 solid;
+            border: 4px #f07777 solid;
         }
         .name-wrapper{
             position: absolute;

@@ -190,6 +190,14 @@ header h3 {
 .intro-section .yellow-image-box .caption {
   color: #fff;
 }
+.intro-section .link {
+  color: black;
+  color: #f39454;
+  text-decoration: none;
+}
+.intro-section .link:hover {
+  text-decoration: underline;
+}
 
 .colored-row {
   background-color: #fff0e4;
@@ -421,10 +429,10 @@ header h3 {
   }
 }
 .main-event-section .main-event-img .dark-yellow-border {
-  border: 6px #f39454 solid;
+  border: 4px #f39454 solid;
 }
 .main-event-section .main-event-img .dark-red-border {
-  border: 6px #f07777 solid;
+  border: 4px #f07777 solid;
 }
 .main-event-section .main-event-img .name-wrapper {
   position: absolute;
