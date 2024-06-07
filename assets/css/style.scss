@@ -164,13 +164,16 @@ header{
         color: black;
         color: $second-color;
         text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1;
         &:hover{
             text-decoration: underline;
         }
     }
 }
 .colored-row{
-    background-color: $light;
+    background-color: #ffe8d6;
     .cta{
         border: 2px solid #f07777;
         color: #f07777;
