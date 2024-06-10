@@ -197,8 +197,6 @@ header h3 {
   font-size: 18px;
   font-weight: bold;
   line-height: 1;
-}
-.intro-section .link:hover {
   text-decoration: underline;
 }
 
@@ -446,8 +444,8 @@ header h3 {
 }
 @media (max-width: 767px) {
   .main-event-section .main-event-img .name-wrapper {
-    bottom: 0;
-    padding: 2px 10px;
+    bottom: -8px;
+    padding: 0px 10px;
   }
 }
 .main-event-section .main-event-img .name-wrapper p {

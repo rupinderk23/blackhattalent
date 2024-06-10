@@ -167,9 +167,7 @@ header{
         font-size: 18px;
         font-weight: bold;
         line-height: 1;
-        &:hover{
-            text-decoration: underline;
-        }
+        text-decoration: underline;
     }
 }
 .colored-row{
@@ -385,8 +383,8 @@ header{
             right: 0;
             padding: 3px 10px;
             @media(max-width: 767px){
-                bottom: 0;
-                padding: 2px 10px;
+                bottom: -8px;
+                padding: 0px 10px;
             }
             p{
                 font-family: $body-font;
